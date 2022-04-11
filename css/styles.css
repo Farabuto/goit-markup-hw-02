@@ -1,0 +1,93 @@
+/* rgba(33, 33, 33, 1) основний колік чорний */
+/* rgba(117, 117, 117, 1) вторичний колік чорний з прозорістю */
+/* rgba(33, 150, 243, 1) голубий колік використовується при наведені */
+/* rgba(255, 255, 255, 1) білий колір шрифту при наведені */
+/* focus тег фокусированя */
+/* hover туг наведеня */
+/* active зажиаєш і міняє колік */
+body {
+  font-family: Roboto;
+}
+:root {
+  --accent-color:#2196F3;
+}
+/* .remove-dots{list-style:none;} видалити крапки */
+.remove-dots {
+  list-style: none;
+}
+
+/* .remove-underscores{text-decoration:none;} видалити підкреслення */
+.remove-underscores {
+  text-decoration: none;
+}
+
+* {
+  color:#212121;
+}
+
+.site-nav:focus,
+.site-nav:hover,
+.site-nav:active
+{
+  color:var(--accent-color);
+}
+
+.contact{
+  color: #757575;
+}
+.contact:focus,
+.contact:hover,
+.contact:active{
+color:var(--accent-color);
+}
+
+.logo{
+  color: #212121;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+.logo-footer {
+  color: #ffffff;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+.logo-blu{
+  color: #2196F3;
+}
+
+.aside-nav{
+background-color: #F5F4FA;
+}
+.aside-nav:focus,
+.aside-nav:hover,
+.aside-nav:active{
+  background-color:var(--accent-color);
+  color: #ffffff;
+}
+.title{
+  color: #212121;
+}
+.lead{
+  color: #757575;
+}
+
+.footer{
+  background-color: #2F303A;
+}
+.footer-map{
+  color: #ffffff;
+}
+.footer-contact{
+  color:rgba(255, 255, 255, 0.6);
+}
+.footer-contact:focus,
+.footer-contact:hover,
+.footer-contact:active{
+  color: #ffffff;
+}
