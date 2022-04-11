@@ -25,6 +25,12 @@ body {
   color:#212121;
 }
 
+.site-nav{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
 .site-nav:focus,
 .site-nav:hover,
 .site-nav:active
@@ -34,6 +40,10 @@ body {
 
 .contact{
   color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 .contact:focus,
 .contact:hover,
@@ -72,9 +82,15 @@ background-color: #F5F4FA;
 }
 .title{
   color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
 }
 .lead{
   color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .footer{
@@ -82,9 +98,15 @@ background-color: #F5F4FA;
 }
 .footer-map{
   color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
 .footer-contact{
   color:rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
 }
 .footer-contact:focus,
 .footer-contact:hover,
