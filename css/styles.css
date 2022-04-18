@@ -27,6 +27,10 @@ body{
 .site-nav:active {
     color:var(--accent-color);
 }
+.testimony{
+    color: var(--accent-color);
+    cursor: pointer;
+}
 
 .contact {
     color: #757575;
@@ -81,22 +85,31 @@ body{
     font-size: 16px;
     line-height: 30px;
 }
-.button:focus
-.button:hover
+.button:focus,
+.button:hover,
 .button:active{
-    background-color: rgba(33, 150, 243, 0.15);
-    box-shadow: 0px 4px 4px;
+    background: #188CE8;;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 .order{
     color: #ffffff;
 }
 
-.text{
-    color: #757575;
+.text-subject{
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
+}
+.text{
+    color: #757575;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
 }
 .subject{
     font-weight: 700;

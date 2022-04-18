@@ -13,7 +13,8 @@ body {
 }
 /* .remove-dots{list-style:none;} видалити крапки */
 .remove-dots {
-  list-style: none;
+  /*list-style:none;*/
+  list-style-type: none;
 }
 
 /* .remove-underscores{text-decoration:none;} видалити підкреслення */
@@ -36,6 +37,10 @@ body {
 .site-nav:active
 {
   color:var(--accent-color);
+}
+.testimony {
+  color: var(--accent-color);
+  cursor: pointer;
 }
 
 .contact{
@@ -73,6 +78,11 @@ color:var(--accent-color);
 
 .aside-nav{
 background-color: #F5F4FA;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
 }
 .aside-nav:focus,
 .aside-nav:hover,
@@ -112,4 +122,7 @@ background-color: #F5F4FA;
 .footer-contact:hover,
 .footer-contact:active{
   color: #ffffff;
+}
+.obligatory{
+  color: rgb(0,0,0,0);
 }
